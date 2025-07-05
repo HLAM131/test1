@@ -1,5 +1,5 @@
 trigger:
-- main
+- HLAM131-patch-1
 
 pool:
   vmImage: 'ubuntu-latest'
