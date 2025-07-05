@@ -1,0 +1,13 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "🔧 Azure Pipeline đang chạy!"
+  displayName: 'Bắt đầu pipeline'
+
+- script: |
+    echo "✅ Build giả lập hoàn tất"
+  displayName: 'Kết thúc pipeline'
